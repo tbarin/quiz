@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 20170831153801) do
 
   create_table "cats", force: :cascade do |t|
     t.string   "name"
+    t.string   "color"
+    t.integer  "age"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
